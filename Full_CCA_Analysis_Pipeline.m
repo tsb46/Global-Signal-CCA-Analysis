@@ -5,10 +5,10 @@ addpath(genpath('palm-alpha105'))
 addpath(genpath('NearestSymmetricPositiveDefinite'))
 
 
-input_beta_folder = '/Users/tbolt/Desktop/Emory_University/GS_CCA/GS_betamap/data/HCP_S1200_GS_betamap/MSM_reg_wbsgrayordinatecortex';
+input_beta_folder = 'input path to Global Signal Beta Maps';
 beta_folders = dir(strcat(input_beta_folder,'/*'));
 
-input_motion_folder = '/Users/tbolt/Desktop/Emory_University/GS_CCA/GS_betamap/data/HCP_S1200_FD_DV';
+input_motion_folder = 'input path to motion folder';
 motion_folders = dir(strcat(input_motion_folder,'/*'));
 
 %% Load in All Global Signal Beta Maps
