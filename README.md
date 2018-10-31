@@ -14,3 +14,6 @@ https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FSLNets
 FSL PALM toolbox:
 https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/PALM/UserGuide
 
+You will also need some way to load in the cifti files, if your Global Signal Beta Maps are in cifti format (ours were). If you have all of these in .MAT files already than no need for it. We used a matlab cifti toolbox for this:
+
+https://github.com/Washington-University/cifti-matlab
